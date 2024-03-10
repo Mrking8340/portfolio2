@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="./portfolio.css"type="text/css">
+	<title>Personal portfolio Website</title>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<nav>
+				<h2 class="logo">KING&#9812;<sub>S&#9829;R</sub></h2>
+				<ul id="sidemenu">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#Contact">Contact</a></li>
+					
+					<ion-icon name="close-outline" class="fas"onclick="closemenu()"></ion-icon>
+				</ul>
+				<ion-icon name="menu-outline" class="fas"onclick="openmenu()"></ion-icon>
+			</nav>
+			<div class="header-text">
+				<p>Web/UI/UX Designer</p>
+				<h1>Hi,I'm <b>Raju</b><br>From Hyderabad</h1>
+			</div>
+		</div>
+	</div>
+<!-- About section -->
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="images/kkkk.jpg" alt="" />
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p>About me' section provides a summary of the entire resume. It briefly provides the most crucial information that the hiring manager wants to know about a job seeker.  This section becomes even more helpful when the HR manager doesn't have enough time at hand to go through the entire resume. Hence, a quick review of the 'About me' in resume will help him/her understand the profile of the candidate, their relevant experience, etc. 
+				</p>
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('experience')">Experience</p>
+					<p class="tab-links" onclick="opentab('education')">Education</p>
+				</div>
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+						<li><span>Web Development</span><br>Web Development</li>
+						<li><span>App Development</span><br>Building Ansroid/IOS apps</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="experience">
+					<ul>
+						<li><span>2023-Current</span><br> UI/UX Design Trainig at ms soft technologee</li>
+						<li><span>2024-2025</span><br>Team lead at starApp LLC</li>
+						<li><span>2025-2026</span><br>UI/UX Design Executive at coin Digital Ltd.</li>
+						
+					</ul>
+				</div>
+				<div class="tab-contents" id="education">
+					<ul>
+						<li><span>2023</span><br>UI/UX Design Trainig at ms soft technologee</li>
+						<li><span>2024</span><br>Diploma CSE from ELEN</li>
+						<li><span>2028</span><br>Btech from OU</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Services-section -->
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+				<ion-icon name="code-slash-outline"></ion-icon>
+				<h3>Web Design</h3>
+				<p>Web designing is the process of planning, conceptualizing, and implementing the plan for make them easy to navigate.</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<ion-icon name="crop-outline"></ion-icon>
+				<h3>UI/UX Design</h3>
+				<p>Web designing is the process of planning, conceptualizing, and implementing the plan for make them easy to navigate.</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<ion-icon name="logo-apple-appstore"></ion-icon>
+				<h3>App Design</h3>
+				<p>Web designing is the process of planning, conceptualizing, and implementing the plan for make them easy to navigate.</p>				
+				<a href="#">Learn more</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Portfolio-section -->
+<div id="portfolio">
+	<div class="container">
+		<h1 class="sub-title">My Work</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/v1.avif" alt="" />
+				<div class="layer">
+				<h3>Sosial Media App</h3>
+				<p>The app connects you yo the talented people around the world.Download it from play store.</p>
+				<a href="#"><ion-icon name="open-outline"></ion-icon></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/v2.webp" alt="" />
+				<div class="layer">
+				<h3>Music App</h3>
+				<p>The app connects you yo the talented people around the world.Download it from play store.</p>
+				<a href="#"><ion-icon name="open-outline"></ion-icon></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/v3.png" alt="" />
+				<div class="layer">
+				<h3>Online Shopping App</h3>
+				<p>The app connects you yo the talented people around the world.Download it from play store.</p>
+				<a href="#"><ion-icon name="open-outline"></ion-icon></a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn">See more</a>
+		
+	</div>
+</div>
+<!-- contact section -->
+<div id="Contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><ion-icon name="paper-plane-outline"></ion-icon>roddaraju8340@gmail.com</p>
+				<p><ion-icon name="call-outline"></ion-icon>799****100</p>
+				<div class="social-icons">
+					<a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+					<a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+					<a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+					<a href=""><ion-icon name="logo-youtube"></ion-icon></a>
+				</div>
+				<a href="./.pdf" download class="btn btn2">Download CV</a>
+			</div>
+			<div class="contact-right">
+				<form>
+				<input type="text" name="Name" placeholder="Your Name" required>
+				<input type="email" name="email" placeholder="Your Email" required>
+				<textarea name="Message" placeholder="Your Message"rows="6"></textarea>
+				<button type="Submit"class="btn btn2">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Copyright @ King. Made with my own talented</p>
+	</div>
+</div>
+
+<!-- javascript section -->
+<script>
+	var tablinks = document.getElementsByClassName("tab-links");
+	var tabcontents = document.getElementsByClassName("tab-contents");
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+</script>
+<script>
+	var sidemenu = document.getElementById("sidemenu");
+	
+	function openmenu(){
+		sidemenu.style.right = "0";
+	}
+	function closemenu(){
+		sidemenu.style.right = "-200px";
+	}
+</script>
+</body>
+</html>
